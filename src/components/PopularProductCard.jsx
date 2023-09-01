@@ -1,5 +1,7 @@
 import { star } from "../assets/icons";
 const PopularProductCard = ({ imgURL, name, price}) => {
+    // further improve this section by making the the images clickable
+    // and link to a product description page to be created later
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">
         <img src={imgURL} alt={name}
