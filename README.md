@@ -1,8 +1,24 @@
-# React + Vite
+# Nike 2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Nike shoes website developed using React & TailwindCSS.
 
-Currently, two official plugins are available:
+### Things to Provide
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [public](./public) (contains a Nike favicon)
+- [assets](./src/assets) (contains images & icons)
+- [constants](./src/constants) (contains dummy data)
+- [**index.css**](./src/index.css) (contains some styles. Do explain them)
+- [.eslintrc.cjs](./.eslintrc.cjs) (eslint rules to fix few warnings)
+- [tailwind.config.js](./tailwind.config.js) (contains some configs. Do explain them)
+
+### Setup
+
+Visit the tailwindcss site and follow the guide for setting up a vite project. 
+- Open TailwindCSS site
+- Go to the docs
+- Click on Installation
+- Select the "Framework Guides" tab
+- Click on Vite
+- And follow the next steps
+
+[Vite Framework Guide](https://tailwindcss.com/docs/guides/vite) link. 
