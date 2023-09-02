@@ -1,4 +1,7 @@
+import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
+import{ socialMedia, footerLinks} from "../constants"
+
 
 const Footer = () => {
   return (
@@ -33,12 +36,28 @@ const Footer = () => {
                </h4>
                <ul>
                 {section.links.map((link) => (
-                  <li className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray"></li>
+                  <li className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
+                  key={link.name}>
+                    <a>{link.name}</a>
+                  </li>
                 ))}
                </ul>
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
+         <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
+         <img src={copyrightSign} 
+         alt="copyright sign" 
+          width={20}
+          height={20}
+          className="rounded-full m-0"
+         /> 
+         <p>Copyright. All Rights reserved.</p>
+         </div>
+         <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
       </div>
     </footer>
   );
